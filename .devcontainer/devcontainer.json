@@ -1,0 +1,17 @@
+{
+  "name": "CSF Arcade Project",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ritwickdey.LiveServer",
+        "ms-vscode.live-server"
+      ],
+      "settings": {
+        "liveServer.settings.port": 5500,
+        "liveServer.settings.donotShowInfoMsg": true
+      }
+    }
+  },
+  "forwardPorts": [5500]
+}
